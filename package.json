@@ -1,0 +1,32 @@
+{
+  "name": "git-seance",
+  "version": "0.1.0",
+  "description": "Summon the ghost of whoever wrote that line. A local, open-weight git séance powered by Gemma.",
+  "type": "module",
+  "bin": {
+    "git-seance": "bin/git-seance.js",
+    "seance": "bin/git-seance.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "scripts"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "haunt": "node scripts/make-haunted-repo.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "git",
+    "blame",
+    "ollama",
+    "gemma",
+    "local-llm",
+    "halloween",
+    "code-archaeology"
+  ],
+  "license": "MIT"
+}
